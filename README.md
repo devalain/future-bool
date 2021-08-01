@@ -31,7 +31,7 @@ async fn main() {
 ```
 
 
-[crate-image]: https://img.shields.io/crates/v/ockam.svg
+[crate-image]: https://img.shields.io/crates/v/future-bool.svg
 [crate-link]: https://crates.io/crates/future-bool
 
 [docs-image]: https://docs.rs/future-bool/badge.svg
