@@ -1,7 +1,6 @@
 # future-bool
 [![crate][crate-image]][crate-link]
 [![docs][docs-image]][docs-link]
-[![license][license-image]][license-link]
 
 A bool one can `await` the changes.
 
