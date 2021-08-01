@@ -12,7 +12,8 @@ async fn main() {
 
     let task = tokio::spawn(async move {
     	loop {
-	    // When run is false, some_async_fn will be interrupted.
+	    // If run changes to false before `some_async_fn` is terminated, 
+	    // it will be interrupted.
 	    tokio::select! {
 	    	_ = run_clone.wait_false() => break,
 		_ = some_async_fn() => {}
