@@ -1,4 +1,8 @@
 # future-bool
+[![crate][crate-image]][crate-link]
+[![docs][docs-image]][docs-link]
+[![license][license-image]][license-link]
+
 A bool one can `await` the changes.
 
 ## Example usage
@@ -26,3 +30,10 @@ async fn main() {
     task.await;
 }
 ```
+
+
+[crate-image]: https://img.shields.io/crates/v/ockam.svg
+[crate-link]: https://crates.io/crates/future-bool
+
+[docs-image]: https://docs.rs/future-bool/badge.svg
+[docs-link]: https://docs.rs/future-bool
