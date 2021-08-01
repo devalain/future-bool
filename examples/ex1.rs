@@ -3,7 +3,7 @@ use future_bool::FutureBool;
 macro_rules! sleep {
     ($sec:expr) => {
         ::tokio::time::sleep(::tokio::time::Duration::from_secs($sec)).await
-    }
+    };
 }
 
 #[tokio::main]
@@ -25,10 +25,10 @@ async fn main() {
             }));
         }
     }
-    
+
     sleep!(2);
     b.set();
-    
+
     for task in tasks {
         let _ = task.await;
     }
